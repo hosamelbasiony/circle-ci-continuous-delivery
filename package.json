@@ -1,0 +1,23 @@
+{
+  "name": "continuous-delivery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hosamelbasiony/continuous-delivery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hosamelbasiony/continuous-delivery/issues"
+  },
+  "homepage": "https://github.com/hosamelbasiony/continuous-delivery#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

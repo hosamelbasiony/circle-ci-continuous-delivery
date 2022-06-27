@@ -5,14 +5,14 @@ version: 2.1
 # See: https://circleci.com/docs/2.0/orb-intro/
 orbs:
   node: circleci/node@4.7
-  welcome: circleci/welcome-orb@0.4.1
+  # welcome: circleci/welcome-orb@0.4.1
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-  welcome:
-    jobs:
-      - welcome/run
+  # welcome:
+  #   jobs:
+  #     - welcome/run
   sample: # This is the name of the workflow, feel free to change it to better match your workflow.
     # Inside the workflow, you define the jobs you want to run.
     jobs:
